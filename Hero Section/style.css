@@ -11,6 +11,7 @@ body {
     padding: 0px 10% 80px;  
     flex-wrap: wrap;
     gap: 40px;
+    align-items: center;
   }
   
   .content {
@@ -129,6 +130,9 @@ body {
   /* ------------------------ */
 
   @media (max-width: 1024px) {
+    .landing {
+     align-items: unset;
+    }
     .content h1 {
       font-size: 40px;
     }
